@@ -9,7 +9,7 @@ https://vitest.dev/guide/#adding-vitest-to-your-project
 https://vitest.dev/guide/ui.html#vitest-ui  
 https://github.com/veritem/eslint-plugin-vitest
 ```
-npm install -D vitest @vitest/ui eslint eslint-plugin-vitest
+npm install -D vitest @vitest/ui eslint-plugin-vitest
 ```
 ## 3
 https://testing-library.com/docs/dom-testing-library/setup
