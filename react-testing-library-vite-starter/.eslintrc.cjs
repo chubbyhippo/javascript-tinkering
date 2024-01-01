@@ -21,7 +21,6 @@ module.exports = {
     },
     languageOptions: {
         globals: {
-
             ...vitest.environments.env.globals,
         }
     }
