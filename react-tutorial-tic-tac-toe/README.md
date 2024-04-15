@@ -1,5 +1,4 @@
-https://react.dev/learn/tutorial-tic-tac-toe#making-an-interactive-component
-value
+https://react.dev/learn/tutorial-tic-tac-toe#react-developer-tools
 ```
 npx prettier . --write
 ```
