@@ -1,1 +1,1 @@
-https://react.dev/learn/tutorial-tic-tac-toe#building-the-board
+https://react.dev/learn/tutorial-tic-tac-toe#passing-data-through-props
