@@ -8,31 +8,22 @@ function Square({ value, onSquareClick }) {
   );
 }
 
-function Board() {
-  const [squares, setSquares] = useState(Array(9).fill(null));
-  const [xIsNext, setXIsNext] = useState(true);
-
+function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {
 
-    if (calculateWinner(squares)) {
+    if (calculateWinner(squares || squares[i])) {
       return;
     }
 
     const nextSquare = squares.slice();
+    if (xIsNext) {
+      nextSquare[i] = "X";
+    } else {
+      nextSquare[i] = "O";
+    }
 
-    setSquares(nextSquare
-      .map((value, index) => {
-        if (index === i && !value) {
-          if (xIsNext) {
-            value = "x";
-          } else {
-            value = "o";
-          }
-          setXIsNext(!xIsNext);
-        }
-        return value;
-      })
-    );
+    onPlay(nextSquare);
+
   }
 
   const winner = calculateWinner(squares);
