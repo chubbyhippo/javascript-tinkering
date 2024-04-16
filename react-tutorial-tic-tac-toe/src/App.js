@@ -13,9 +13,14 @@ export default function Board() {
   const [squares, setSquares] = useState(initialState);
 
   function handleClick(i) {
-    const nextSquares = squares.slice();
-    nextSquares[i] = "x";
-    setSquares(nextSquares);
+    setSquares(squares.slice()
+      .map((value, index) => {
+        if (index === i) {
+          value = "x";
+        }
+        return value;
+      })
+    );
   }
 
   return (
