@@ -1,4 +1,4 @@
-https://react.dev/learn/tutorial-tic-tac-toe#lifting-state-up
+https://react.dev/learn/tutorial-tic-tac-toe#declaring-a-winner
 ```
 npx prettier . --write
 ```
