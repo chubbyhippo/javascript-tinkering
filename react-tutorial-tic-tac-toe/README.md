@@ -1,4 +1,4 @@
-https://react.dev/learn/tutorial-tic-tac-toe#showing-the-past-moves
+https://react.dev/learn/tutorial-tic-tac-toe#wrapping-up
 ```
 npx prettier . --write
 ```
