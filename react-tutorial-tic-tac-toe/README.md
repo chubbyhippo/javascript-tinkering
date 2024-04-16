@@ -1,4 +1,4 @@
-https://react.dev/learn/tutorial-tic-tac-toe#adding-time-travel
+https://react.dev/learn/tutorial-tic-tac-toe#showing-the-past-moves
 ```
 npx prettier . --write
 ```
