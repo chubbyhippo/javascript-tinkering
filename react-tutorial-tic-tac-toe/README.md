@@ -1,4 +1,4 @@
-https://react.dev/learn/tutorial-tic-tac-toe#declaring-a-winner
+https://react.dev/learn/tutorial-tic-tac-toe#adding-time-travel
 ```
 npx prettier . --write
 ```
